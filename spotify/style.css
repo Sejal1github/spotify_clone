@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(210, 120, 142);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 44px;
+    background-color: rgba(55, 82, 218, 0.881);
+    color: white;
+}
+
+nav ul li{
+     padding: 0 20px;
+}
+
+.brand img{
+    width: 40px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 16vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 44px;
+    background-image: url('img2\ final.jpg');
+   
+   
+}
+
+.bottom{
+    
+    height: 75px;
+    background-color: rgba(55, 82, 218, 0.881);
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 160vh;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 70px;
+    
+}
+
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white; 
+    color: black;
+    margin: 20px -250px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    width: 260px;
+
+
+}
+
+.songItem img{
+    width: 35px;
+    margin: 0 25px;
+    border-radius: 20px;
+    
+}
+
+.timestamp{
+    margin: 0px 10px;
+}
+
+.songInfo{
+    position: absolute;
+    right: 65vw;
+    font-family: 'Varela Round' , sans-serif;
+    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity is 0.4s ease-in;
+}
+
+@media only screen and (max-width: 100px) {
+    body {
+      background-color: rgb(172, 16, 55);
+    }
+  }
+
+
